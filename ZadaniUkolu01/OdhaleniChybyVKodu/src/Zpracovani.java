@@ -25,9 +25,9 @@ public class Zpracovani {
      */
     public double[] vzorkySestupně(double kam, double odkud, double krok)
     {
-        final int N = (int)((kam - odkud) / krok);
+        final int N = (int)((kam - odkud) / krok - 1);
         double values[] = new double[N];
-        double actual = kam;
+        double actual = kam - krok;
         int n = 0;
         while (Double.compare(odkud, actual) == -1) {
             values[n++] = actual;

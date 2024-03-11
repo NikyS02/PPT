@@ -46,6 +46,6 @@ public class VyhodnoceniProspechu {
         int suma = 0;
         for (int i = 0; i < znamky.length; i++)
             suma += znamky[i];
-        return suma / znamky.length;
+        return (double)suma / znamky.length;
     }
 }

@@ -28,7 +28,7 @@ class ZpracovaniTest {
     void testVzorkySestupneFalse() {
         double[] vzorek = {2.5, 2.0, 1.5};
         Zpracovani z = new Zpracovani();
-        assertFalse(Arrays.equals(vzorek, z.vzorkySestupně(3.0,1.0,0.5)));
+        assertFalse(Arrays.equals(vzorek, z.vzorkySestupně(3.0,1.0,0.25)));
     }
 
 }
