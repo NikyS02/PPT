@@ -1,0 +1,12 @@
+A1
+Lukáš;Haza
+Adéla;Maláková
+
+B2
+Petr;Pavel
+Vojtěch;Toms
+
+C3
+Nikola;Schonova
+Harry;Potter
+Voldemort;První

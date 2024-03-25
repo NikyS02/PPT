@@ -3,7 +3,7 @@ import java.util.Map;
 public class Student {
     String jmeno;
     String prijmeni;
-    Map<String,Integer> znamky;
+    Map<String, Integer> znamky;
 
     public Student(String jmeno, String prijmeni) {
         this.jmeno = jmeno;
